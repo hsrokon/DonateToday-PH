@@ -2,7 +2,10 @@
 module.exports = {
   content: ["index.html"],
   theme: {
-    extend: {},
+    extend: {backgroundImage: {
+      'hero-pattern': "url('/images/Rectangle237.png')"
+      }
+    },
   },
   plugins: [],
 }
