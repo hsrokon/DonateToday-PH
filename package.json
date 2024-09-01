@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "donate": "tailwindcss -i ./style/style.css -o ./src/output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.10"
   }
